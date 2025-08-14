@@ -1,0 +1,18 @@
+{
+  "name": "postgres-lesson",
+  "version": "1.0.0",
+  "description": "Postgres lesson",
+  "license": "MIT",
+  "author": "F.Vlahovic",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}

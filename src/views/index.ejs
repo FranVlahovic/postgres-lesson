@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postgres Form</title>
+  </head>
+  <body>
+    <form action="/new" method="post">
+      <label for="username">Enter your username: </label>
+      <input type="text" name="username" id="username" />
+      <button type="submit">Submit</button>
+    </form>
+    <form action="/" method="get">
+      <input type="text" name="search" />
+      <button type="submit">Search</button>
+    </form>
+    <form action="/delete" method="get">
+      <button type="submit">Delete all data</button>
+    </form>
+  </body>
+</html>
